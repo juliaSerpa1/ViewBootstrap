@@ -1,36 +1,8 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.navbar{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.384);
 }
-.navcont{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-between;
-  padding: 10px;
-}
-.navcont .logo{
-  display: flex;
-  align-items: center;
-  color: aliceblue;
-  text-decoration: none;
-}
-.navcont .logo .bi{
+.navbar-brand .bi{
   width: 6vh;
   height: 6vh;
   border-radius: 50px;
-}
-.search .form-control{
-  color: #fff;
-  background-color:#343a40;
-  border-color: #6c757d;
-  display: block;
-  width: 100%;
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
 }
