@@ -1,3 +1,5 @@
+/* --HEADER-- */ 
+
 .p-3{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.384);
 }
@@ -13,7 +15,10 @@
   height: 6vh;
   border-radius: 50px;
 }
-.checkCard{
+
+/* --CHECKOUTCART */
+
+.checkCart{
   margin-top: 3rem;
 }
 .yourCart{
@@ -28,7 +33,10 @@
 }
 .itemProduct{
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
 }
@@ -36,4 +44,25 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+/* --FOOTER-- */
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.itemsColum{
+  display: flex;
+  align-items: center;
+}
+.home{
+  text-decoration: none;
+}
+.social{
+  display: flex;
+  justify-content: flex-end;
 }
