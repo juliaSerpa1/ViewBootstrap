@@ -1,4 +1,4 @@
-header{
+.p-3{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.384);
 }
 .nav{
@@ -13,8 +13,27 @@ header{
   height: 6vh;
   border-radius: 50px;
 }
-.form-control{
-  color: #fff;
-  background-color: #6c757d;
-  border-color: 1px solid #ced4da;
+.checkCard{
+  margin-top: 3rem;
+}
+.yourCart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.listProduct{
+  display: flex;
+  flex-direction: column;
+  border-radius: .25rem;
+}
+.itemProduct{
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.paymentcc{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
